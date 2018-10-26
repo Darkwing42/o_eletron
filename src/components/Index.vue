@@ -1,11 +1,18 @@
 <template>
-  <v-container>
-    <h1>Index</h1>
-  </v-container>
+<div>
+  <mainbar> </mainbar>
+</div>  
 </template>
 
 <script>
-export default {};
+import MainBar from './ui/MainBar'
+
+export default {
+  name: "App",
+  components: {
+    mainbar: MainBar
+  }
+};
 </script>
 
 <style>
